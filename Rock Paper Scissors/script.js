@@ -5,11 +5,23 @@ const msg = document.querySelector("#msg");
 
 const userScorePara = document.querySelector("#player");
 const compScorePara = document.querySelector("#comp");
+const comImg = document.querySelector("#comp_img");
 
 
 const compChoice = () =>{
 let options = ["rock","paper","scissors"];
     let index = Math.floor(Math.random()*3);
+    console.log(comImg);
+    console.log("index",index);
+    if(index === 0){
+        comImg.src = "./images/rock.png";
+    }
+    else if( index === 1){
+        comImg.src = "./images/paper.png";
+    }
+    else if(index === 2){
+        comImg.src = "./images/scissors.png";
+    }
     return options[index];
 }
 

@@ -7,14 +7,14 @@
 h1{
     background-color: darkblue;
     color: aliceblue;
-    height: 5rem;
-    line-height: 5rem;
+    height: 4rem;
+    line-height: 4rem;
 }
 .choices{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
     gap: 3rem;
 }
 .choice{
@@ -40,7 +40,7 @@ img{
 
 .scoreboard{
     display: flex;
-    margin-top: 5rem;
+    margin-top: 3rem;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
@@ -63,4 +63,12 @@ img{
     color: aliceblue;
     border-radius: 1rem;
     padding: 1rem;
+ }
+
+ .comp_block{
+    margin-top: 3rem;
+ }
+ #comp_para{
+    font-size: 1rem;
+    font-style: italic;
  }
